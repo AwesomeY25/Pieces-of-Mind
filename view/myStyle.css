@@ -32,7 +32,7 @@
 .bold-title-1 {
     text-align: center;
     font-family: 'Open Sans Condensed', sans-serif;
-    font-weight: 2000;
+    font-weight: 2500;
     font-size: 64px;
 }
 .paragraph-1 {
@@ -73,7 +73,9 @@
 }
 
 .grid-item-2 {
-    background-color: #7F7F7F;
+    background-color: #C4C4C4;
+    border: 1px solid whitesmoke;
+    margin: 50px;
     padding: 20px;
     font-size: 30px;
     text-align: center;
@@ -101,3 +103,15 @@
   font-size: 20px;
   font-weight: 600;
 }
+
+#button-2 {
+    background-color: #494848;
+    border: none;
+    color: #F0F0F0;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+  }
