@@ -28,7 +28,13 @@
     font-weight: 1500;
     font-size: 30px;
 }
-    
+
+.bold-title-1 {
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 2000;
+    font-size: 64px;
+}
 .paragraph-1 {
     text-align: center;
     font-family: 'Open Sans Condensed', sans-serif;
@@ -51,6 +57,12 @@
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
+    padding: 20px;
+}
+
+.grid-container-2 {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
     padding: 20px;
 }
     
