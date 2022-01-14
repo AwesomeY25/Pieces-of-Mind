@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="myStyle.css">
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
         <nav>
-            <div id="nav-bar-set" class="topnav">
-                <a class="active paragraph-2" href="index.html">Home</a>
-                <a class="paragraph-2" href="about.html">About</a>
-                <a class="paragraph-2" href="collection.html">Collection</a>
-                <a class="paragraph-2" href="tour.html">Tour</a>
-                <button type="submit"><a class="paragraph-1" href="submit.html">Submit</a></button>
+            <div class="topnav">
+                <ul>
+                    <li><a class="active" href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="collection.html">COLLECTION</a></li>
+                    <li><a href="tour.html">TOUR</a></li>
+                    <li><button id="button-light" type="submit"><a style="font-size: 20px; color: #494848;" href="submit.html">SUBMIT</a></button></li>
+                </ul>
             </div>
         </nav>
         <title>Piece of Mind</title>
@@ -22,21 +24,25 @@
         <header>
         </header>
         <main>
-            <div>
-                <h1 class="heading-1";>TODAY'S FEATURED</h1>
-                <img src=https://picsum.photos/600/300/ class="center-item">
-                <button id="button-1" href="#see-more" class="title-1 center-item">See More</button>
+            <div class="grid-container-1">
+                <div class="grid-item-1">
+                    <h1 class="heading-1 top-left-item"; style="text-align:left; font-size: 70px;" >TODAY'S FEATURED</h1>
+                    <img src=https://picsum.photos/600/300/ class="center-item" style="width:90%; height:auto;">
+                </div>
+                <div class="grid-item-1 center-item">
+                    <button id="button-light" href="#see-more" class="title-1" style="text-align: center;">See More</button>
+                </div>
             </div>
-            
+
             <div class="grid-container">
-                <div class="grid-item-1" style="color:#7F7F7F;">
-                    <img src= https://picsum.photos/256/256 >
-                    <h3 class="heading-2">Poetry Collection</h3>
+                <div class="grid-item-2" style="color:#7F7F7F; margin-right: 25px;">
+                    <img style="padding: 10px;" src= https://picsum.photos/256/256>
+                    <h3 style="padding: 10px;" class="heading-2">Poetry Collection</h3>
                     <p class="paragraph-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                 </div>
-                <div class="grid-item-1" style="color:#7F7F7F;">
-                    <img src= https://picsum.photos/256/256>
-                    <h3 class="heading-2">Prose Collection</h3>
+                <div class="grid-item-2" style="color:#7F7F7F; margin-left: 25px;">
+                    <img style="padding: 10px;" src= https://picsum.photos/256/256>
+                    <h3 style="padding: 10px 30px;" class="heading-2">Prose Collection</h3>
                     <p class="paragraph-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                 </div>
             </div>
